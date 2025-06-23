@@ -45,3 +45,15 @@ Customer_Analytics - Aggregated customer metrics and KPIs
 Product_Performance - Sales velocity and profitability analysis
 Inventory_Status - Stock levels with reorder recommendations
 Sales_Dashboard - Executive-level reporting metrics
+
+
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| `Database_and_tables_Creation.sql` | All `CREATE TABLE` statements |
+| `diagrams/ERD_I.png` | Entity-Relationship Diagram (ERD) of the schema |
+| `README.md` | Project documentation (this file) |
+
+![ERD Diagram](diagrams/ERD_I.png)
+
