@@ -54,6 +54,7 @@ Sales_Dashboard - Executive-level reporting metrics
 | `Database_and_tables_Creation.sql` | All `CREATE TABLE` statements |
 | `diagrams/ERD_I.png` | Entity-Relationship Diagram (ERD) of the schema |
 | `Database_Population.sql` | All `INSERT INTO` statements |
+| `Advanced_Analytics_Queries.sql` | Important Analytics queries |
 | `README.md` | Project documentation (this file) |
 
 ![ERD Diagram](diagrams/ERD_I.png)
