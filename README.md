@@ -38,12 +38,16 @@ Purpose: Calculate and predict customer value across the entire journey
 
 Window functions for running calculations
 i. Predictive CLV modeling
+
 ii. Customer segmentation by value
+
 iii. Acquisition cost optimization
 
 Key Features:
 • Advanced window function usage
+
 • Handles irregular purchase patterns
+
 • Scalable for large customer bases
 
 💡Business Impact: Optimizes marketing spend and customer acquisition strategies
