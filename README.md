@@ -5,6 +5,8 @@ This project showcases real-world data engineering skills through complex query 
 This project implements a complete e-commerce database solution that supports advanced analytics and business intelligence operations. 
 The system is designed to handle large-scale transactional data while providing insights into customer behavior, sales performance, inventory management, and market trends.
 
+
+
 Phase 1
 Database Architecture
 
@@ -23,6 +25,8 @@ Inventory - Real-time stock levels and warehouse management
 Suppliers - Vendor relationships and procurement data
 Categories - Product taxonomy and organization
 Reviews - Customer feedback and rating systems
+
+
 
 Phase 2
 Data population
