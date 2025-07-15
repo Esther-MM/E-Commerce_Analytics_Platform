@@ -39,11 +39,11 @@ Purpose: Calculate and predict customer value across the entire journey
 
 Window functions for running calculations
 
-i. Predictive CLV modeling
+→ Predictive CLV modeling
 
-ii. Customer segmentation by value
+→ Customer segmentation by value
 
-iii. Acquisition cost optimization
+→ Acquisition cost optimization
 
 Key Features:
 
@@ -54,6 +54,7 @@ Key Features:
 • Scalable for large customer bases
 
 💡Business Impact: Optimizes marketing spend and customer acquisition strategies
+
 
 2. Product Performance Analysis (JSON Functions)
    
@@ -77,6 +78,7 @@ Key Features:
 
 💡Business Impact: Optimizes product catalog and inventory management
 
+
 3. Monthly Revenue Trend Analysis
    
 Purpose: Track revenue growth patterns and identify seasonal trends
@@ -96,6 +98,7 @@ Key Features:
 • Performance optimized with proper indexing
 
 💡Business Impact: Enables data-driven revenue forecasting and seasonal planning
+
 
 4. Customer Cohort Analysis
    
@@ -119,6 +122,7 @@ Key Features:
 
 💡Business Impact: Improves customer retention strategies and marketing effectiveness
 
+
 5. Abandoned Cart Analysis
    
 Purpose: Identify revenue recovery opportunities and conversion bottlenecks
@@ -141,7 +145,9 @@ Key Features:
 
 💡Business Impact: Recovers lost revenue and improves conversion rates
 
+
 6. Full-Text Search Implementation
+   
 Purpose: Enable fast, flexible product discovery across descriptions and titles
 
 → Relevance scoring for search results
@@ -176,14 +182,20 @@ Use case: Enables quick profitability analysis for finance and operations teams.
 
 ✅ Procedures
 1. GetLowStockAlerts(threshold_quantity)
-Generates a stock status report for all products below a specified inventory threshold. It also considers units sold in the last 30 days and classifies stock levels as:
+
+Generates a stock status report for all products below a specified inventory threshold. 
+It also considers units sold in the last 30 days and classifies stock levels as:
+
 Use case: Supports inventory planning and restocking decisions.
 
 2. CalculateCustomerSegmentation()
-Segments customers using RFM (Recency, Frequency, Monetary) logic. The procedure classifies users into actionable groups like:
+Segments customers using RFM (Recency, Frequency, Monetary) logic.
+The procedure classifies users into actionable groups.
+
 Use case: Powers personalized marketing, re-engagement campaigns, and lifetime value tracking.
 
-Business Value:
+
+💡Business Value:
 
 • These SQL components enable:
 
