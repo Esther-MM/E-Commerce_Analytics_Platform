@@ -1,7 +1,7 @@
 A comprehensive MySQL-based e-commerce analytics platform demonstrating advanced database design, normalization principles, and business intelligence capabilities. 
 This project showcases real-world data engineering skills through complex query optimization, automated reporting, and data-driven decision support systems.
 
-🎯 Project Overview
+🎯 Project Overview:
 This project implements a complete e-commerce database solution that supports advanced analytics and business intelligence operations. 
 The system is designed to handle large-scale transactional data while providing insights into customer behavior, sales performance, inventory management, and market trends.
 
