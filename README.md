@@ -194,6 +194,7 @@ These SQL components automate complex analytics tasks that would otherwise requi
 
 ✅ Function
 CalculateOrderProfit(order_id)
+
 Use case: Enables quick profitability analysis for finance and operations teams.
 
 ✅ Procedures
