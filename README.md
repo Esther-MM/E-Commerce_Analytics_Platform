@@ -8,22 +8,31 @@ The system is designed to handle large-scale transactional data while providing 
 
 
 Phase 1:
-Database Architecture
+Database Architecture.
 
 Normalized Database Design - Implements 3NF structure for optimal data integrity
 Comprehensive Entity Relationships - Complex foreign key relationships and constraints
 Optimized Indexing Strategy - Performance-tuned indexes for analytical queries
 Data Integrity Enforcement - Triggers and stored procedures for business rule validation
 
-🏗️ Database Schema
-Core Tables
+🏗️ Database Schema.
+
+Core Tables;
+
 Customers - Customer profiles and demographic data
+
 Products - Product catalog with hierarchical categories
+
 Orders - Transaction records with comprehensive order details
+
 Order_Items - Individual line items with pricing and quantities
+
 Inventory - Real-time stock levels and warehouse management
+
 Suppliers - Vendor relationships and procurement data
+
 Categories - Product taxonomy and organization
+
 Reviews - Customer feedback and rating systems
 
 
