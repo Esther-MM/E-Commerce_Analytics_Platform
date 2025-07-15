@@ -44,6 +44,7 @@ Data population.
 
 Phase 3:
 Advanced SQL queries designed for comprehensive e-commerce business intelligence. 
+
 Each query addresses real-world business questions with optimized performance and clear, maintainable code.
 
 1. Customer Lifetime Value (CLV) Analysis
