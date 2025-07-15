@@ -37,9 +37,9 @@ Each query addresses real-world business questions with optimized performance an
 Purpose: Calculate and predict customer value across the entire journey
 
 Window functions for running calculations
-→ Predictive CLV modeling
-→ Customer segmentation by value
-→ Acquisition cost optimization
+i. Predictive CLV modeling
+ii. Customer segmentation by value
+iii. Acquisition cost optimization
 
 Key Features:
 • Advanced window function usage
