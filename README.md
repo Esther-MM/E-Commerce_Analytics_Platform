@@ -7,7 +7,7 @@ The system is designed to handle large-scale transactional data while providing 
 
 
 
-Phase 1
+Phase 1:
 Database Architecture
 
 Normalized Database Design - Implements 3NF structure for optimal data integrity
@@ -28,12 +28,12 @@ Reviews - Customer feedback and rating systems
 
 
 
-Phase 2
+Phase 2:
 Data population
 
 
 
-Phase 3
+Phase 3:
 Advanced SQL queries designed for comprehensive e-commerce business intelligence. 
 Each query addresses real-world business questions with optimized performance and clear, maintainable code.
 
