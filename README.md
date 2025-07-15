@@ -15,7 +15,7 @@ Comprehensive Entity Relationships - Complex foreign key relationships and const
 Optimized Indexing Strategy - Performance-tuned indexes for analytical queries
 Data Integrity Enforcement - Triggers and stored procedures for business rule validation
 
-🏗️ Database Schema.
+🏗️ Database Schema:
 
 Core Tables;
 
@@ -38,7 +38,7 @@ Reviews - Customer feedback and rating systems
 
 
 Phase 2:
-Data population
+Data population.
 
 
 
@@ -183,7 +183,9 @@ Key Features:
 
 
 
-Phase 4: Stored Procedures & Functions
+Phase 4: 
+Stored Procedures & Functions.
+
 Automated Decision Making - Stored procedures for dynamic pricing and inventory management
 
 This phase focuses on embedding business logic directly into the database using MySQL stored procedures and a user-defined function. 
