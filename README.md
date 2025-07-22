@@ -237,6 +237,9 @@ Use case: Powers personalized marketing, re-engagement campaigns, and lifetime v
 | `Database_Population.sql` | All `INSERT INTO` statements |
 | `Advanced_Analytics_Queries.sql` | Important Analytics queries |
 | `Stored_Procedures_and_Functions` |Automated business logic|
+| `Triggers_and_Data_Integrity` |Automated busines logic|
+| `Performance_Optimization` |Query Optimization|
+| `Security_Implementation` |User management and security|
 | `README.md` | Project documentation (this file) |
 
 ![ERD Diagram](diagrams/ERD_I.png)
