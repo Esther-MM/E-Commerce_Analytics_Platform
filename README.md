@@ -170,7 +170,8 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 **Esther Mamtoshu**  
 Senior Data Analyst | Data Scientist | Data Storyteller | ML Enthusiast  
-🔗 [LinkedIn](http://linkedin.com/in/esther-mamtoshu-520595119)      | 🌐 [Portfolio](https://www.datascienceportfol.io/EstherMwangi)
+🔗 [LinkedIn](http://linkedin.com/in/esther-mamtoshu-520595119)  
+🌐 [Portfolio](https://www.datascienceportfol.io/EstherMwangi)
 
 ---
 
