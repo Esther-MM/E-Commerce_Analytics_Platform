@@ -150,7 +150,7 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 ---
 
-## 📷 ERD Diagram
+## ERD Diagram
 
 ![ERD Diagram](diagrams/ERD_I.png)
 
