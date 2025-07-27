@@ -52,13 +52,13 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 - Calculate and predict customer value  
 - Use window functions for segmentation and forecasting  
-- **💡 Business Impact**: Optimizes marketing spend and lifetime value strategies
+**💡 Business Impact**: Optimizes marketing spend and lifetime value strategies
 
 #### 2. Product Performance Analysis (JSON Functions)
 
 - Analyze product performance using JSON attributes  
 - Extract nested data and compute performance metrics  
-- **💡 Business Impact**: Informs catalog optimization and inventory planning
+**💡 Business Impact**: Informs catalog optimization and inventory planning
 
 #### 3. Monthly Revenue Trend Analysis
 
@@ -70,19 +70,19 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 - Understand retention and lifecycle behavior  
 - Perform segment comparison over time  
-- **💡 Business Impact**: Enhances customer retention strategies
+**💡 Business Impact**: Enhances customer retention strategies
 
 #### 5. Abandoned Cart Analysis
 
 - Identify abandonment rate and recovery opportunities  
 - Score high-intent users and funnel drop-offs  
-- **💡 Business Impact**: Recovers lost revenue and improves conversions
+**💡 Business Impact**: Recovers lost revenue and improves conversions
 
 #### 6. Full-Text Search Implementation
 
 - Implement full-text search for product discovery  
 - Support relevance scoring, typos, and weighted results  
-- **💡 Business Impact**: Improves user experience and conversion rates
+**💡 Business Impact**: Improves user experience and conversion rates
 
 ---
 
@@ -110,9 +110,9 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 ### Phase 5: Data Integrity & Automation
 
-- ✅ **Smart Inventory Management:** Updates stock levels after each purchase  
-- ✅ **Order Tracking:** Logs each status change for full auditability  
-- ✅ **Review Verification:** Ensures only verified buyers leave reviews  
+✅ **Smart Inventory Management:** Updates stock levels after each purchase  
+✅ **Order Tracking:** Logs each status change for full auditability  
+✅ **Review Verification:** Ensures only verified buyers leave reviews  
 
 ---
 
