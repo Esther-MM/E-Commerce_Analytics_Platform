@@ -1,279 +1,182 @@
-A comprehensive MySQL-based e-commerce analytics platform demonstrating advanced database design, normalization principles, and business intelligence capabilities. 
+# 🛒 E-Commerce Analytics Platform (MySQL-Based)
+
+## 📌 Overview
+
+A comprehensive MySQL-based e-commerce analytics platform demonstrating advanced database design, normalization principles, and business intelligence capabilities.
 This project showcases real-world data engineering skills through complex query optimization, automated reporting, and data-driven decision support systems.
 
-🎯 Project Overview:
-This project implements a complete e-commerce database solution that supports advanced analytics and business intelligence operations. 
-The system is designed to handle large-scale transactional data while providing insights into customer behavior, sales performance, inventory management, and market trends.
+---
 
+## Key Features
 
+- Advanced SQL for business intelligence  
+- Automated reporting and insights  
+- Fully normalized schema (3NF)  
+- Stored procedures and functions for logic automation  
+- Real-time analytics and performance tuning  
+- Role-based access control  
 
-Phase 1:
-Database Architecture.
+---
 
-Normalized Database Design - Implements 3NF structure for optimal data integrity
-Comprehensive Entity Relationships - Complex foreign key relationships and constraints
-Optimized Indexing Strategy - Performance-tuned indexes for analytical queries
-Data Integrity Enforcement - Triggers and stored procedures for business rule validation
+## 🚀 Project Phases
 
-🏗️ Database Schema:
+### Phase 1: Database Architecture
 
-Core Tables;
+- **Normalized Design (3NF):** Ensures data consistency and avoids redundancy  
+- **Entity Relationships:** Complex foreign key relationships and constraints  
+- **Indexing Strategy:** Performance-tuned indexes for analytics  
+- **Data Integrity:** Triggers and stored procedures for business rules  
 
-Customers - Customer profiles and demographic data
+#### Core Tables
 
-Products - Product catalog with hierarchical categories
+- `Customers`: Customer profiles and demographic data  
+- `Products`: Product catalog with hierarchical categories  
+- `Orders`: Transaction records with full order details  
+- `Order_Items`: Line items with quantity and pricing  
+- `Inventory`: Real-time stock levels and warehouse data  
+- `Suppliers`: Vendor and procurement information  
+- `Categories`: Product taxonomy  
+- `Reviews`: Customer feedback and rating system  
 
-Orders - Transaction records with comprehensive order details
+---
 
-Order_Items - Individual line items with pricing and quantities
+### Phase 2: Data Population
 
-Inventory - Real-time stock levels and warehouse management
+Realistic mock data is inserted into the schema to simulate real-world e-commerce operations.
 
-Suppliers - Vendor relationships and procurement data
+---
 
-Categories - Product taxonomy and organization
+### Phase 3: Advanced SQL Analytics
 
-Reviews - Customer feedback and rating systems
+#### 1. Customer Lifetime Value (CLV) Analysis
 
+- Calculate and predict customer value  
+- Use window functions for segmentation and forecasting  
+- **💡 Business Impact**: Optimizes marketing spend and lifetime value strategies
 
+#### 2. Product Performance Analysis (JSON Functions)
 
-Phase 2:
-Data population.
+- Analyze product performance using JSON attributes  
+- Extract nested data and compute performance metrics  
+- **💡 Business Impact**: Informs catalog optimization and inventory planning
 
+#### 3. Monthly Revenue Trend Analysis
 
+- Track month-over-month revenue growth  
+- Compare seasonal trends and YoY performance  
+- **💡 Business Impact**: Supports forecasting and financial planning
 
-Phase 3:
-Advanced SQL queries designed for comprehensive e-commerce business intelligence. 
+#### 4. Customer Cohort Analysis
 
-Each query addresses real-world business questions with optimized performance and clear, maintainable code.
+- Understand retention and lifecycle behavior  
+- Perform segment comparison over time  
+- **💡 Business Impact**: Enhances customer retention strategies
 
-1. Customer Lifetime Value (CLV) Analysis
-   
-Purpose: Calculate and predict customer value across the entire journey
+#### 5. Abandoned Cart Analysis
 
-Window functions for running calculations
+- Identify abandonment rate and recovery opportunities  
+- Score high-intent users and funnel drop-offs  
+- **💡 Business Impact**: Recovers lost revenue and improves conversions
 
-→ Predictive CLV modeling
+#### 6. Full-Text Search Implementation
 
-→ Customer segmentation by value
+- Implement full-text search for product discovery  
+- Support relevance scoring, typos, and weighted results  
+- **💡 Business Impact**: Improves user experience and conversion rates
 
-→ Acquisition cost optimization
+---
 
-Key Features:
+### Phase 4: Stored Procedures & Functions
 
-• Advanced window function usage
+#### ✅ Function: `CalculateOrderProfit(order_id)`
+- Returns profit for a specific order  
+- **Use case**: Quick profitability insights for finance and ops teams
 
-• Handles irregular purchase patterns
+#### ✅ Procedure: `GetLowStockAlerts(threshold_quantity)`
+- Generates stock alerts based on custom thresholds  
+- Considers recent sales for smarter inventory restocking  
+- **Use case**: Supports procurement and supply chain teams
 
-• Scalable for large customer bases
+#### ✅ Procedure: `CalculateCustomerSegmentation()`
+- Segments customers using RFM (Recency, Frequency, Monetary) analysis  
+- **Use case**: Enables personalized marketing and campaign targeting
 
-💡Business Impact: Optimizes marketing spend and customer acquisition strategies
+**💡 Business Value:**
+- Embedded logic allows reusable and consistent decision-making  
+- Enables automation and improved query performance  
+- Centralizes business rules directly in the data layer  
 
+---
 
-2. Product Performance Analysis (JSON Functions)
-   
-Purpose: Deep-dive analytics on product metrics and category performance
+### Phase 5: Data Integrity & Automation
 
-→ JSON data extraction and analysis
+- ✅ **Smart Inventory Management:** Updates stock levels after each purchase  
+- ✅ **Order Tracking:** Logs each status change for full auditability  
+- ✅ **Review Verification:** Ensures only verified buyers leave reviews  
 
-→ Category-level performance metrics
+---
 
-→ Product attribute analysis
+### Phase 6: Performance Optimization
 
-→ Inventory optimization insights
+- **Query Tuning**: Uses `EXPLAIN` plans to identify bottlenecks  
+- **Optimized Indexing**: Supports high-volume transaction querying  
+- **Real-Time Syncing**: Ensures immediate data consistency across modules  
 
-Key Features:
+---
 
-• Advanced JSON querying techniques
+### Phase 7: Security & Access Control
 
-• Nested data structure handling
+**Role-Based Permissions:**
 
-• Performance metrics aggregation
+- **Analytics User:** Can view reports and dashboards  
+- **Sales User:** Access to customer and order insights  
+- **Admin User:** Full control over system configuration and access
 
-💡Business Impact: Optimizes product catalog and inventory management
+---
 
+## 📁 File Structure
 
-3. Monthly Revenue Trend Analysis
-   
-Purpose: Track revenue growth patterns and identify seasonal trends
-
-→ Real-time growth rate calculations
-
-→ Period-over-period comparisons
-
-→ Month-over-month analysis
-
-Key Features:
-
-• Growth rate calculations
-
-• Seasonal trend detection
-
-• Performance optimized with proper indexing
-
-💡Business Impact: Enables data-driven revenue forecasting and seasonal planning
-
-
-4. Customer Cohort Analysis
-   
-Purpose: Understanding user behavior patterns and retention across customer segments
-
-→ Cohort-based retention analysis
-
-→ Customer lifecycle insights
-
-→ Behavioral pattern identification
-
-→ Segment performance comparison
-
-Key Features:
-
-• Flexible cohort definition
-
-• Retention rate calculations
-
-• Visual-friendly output format
-
-💡Business Impact: Improves customer retention strategies and marketing effectiveness
-
-
-5. Abandoned Cart Analysis
-   
-Purpose: Identify revenue recovery opportunities and conversion bottlenecks
-
-→ Cart abandonment rate tracking
-
-→ High-intent user identification
-
-→ Recovery campaign targeting
-
-→ Conversion funnel analysis
-
-Key Features:
-
-• Time-based abandonment detection
-
-• Customer intent scoring
-
-• Recovery opportunity quantification
-
-💡Business Impact: Recovers lost revenue and improves conversion rates
-
-
-6. Full-Text Search Implementation
-   
-Purpose: Enable fast, flexible product discovery across descriptions and titles
-
-→ Relevance scoring for search results
-
-→ Support for partial matches and typos
-
-→ Weighted scoring (title vs description)
-
-→ Search query optimization
-
-Key Features:
-
-• Full-text indexing for performance
-
-• Configurable relevance weights
-
-• Support for complex search queries
-
-💡Business Impact: Improves customer experience and increases conversion rates
-
-
-
-Phase 4: 
-Stored Procedures & Functions.
-
-Automated Decision Making - Stored procedures for dynamic pricing and inventory management
-
-This phase focuses on embedding business logic directly into the database using MySQL stored procedures and a user-defined function. 
-These SQL components automate complex analytics tasks that would otherwise require manual scripting
-
-✅ Function
-CalculateOrderProfit(order_id)
-
-Use case: Enables quick profitability analysis for finance and operations teams.
-
-✅ Procedures
-1. GetLowStockAlerts(threshold_quantity)
-
-Generates a stock status report for all products below a specified inventory threshold. 
-It also considers units sold in the last 30 days and classifies stock levels as:
-
-Use case: Supports inventory planning and restocking decisions.
-
-2. CalculateCustomerSegmentation()
-Segments customers using RFM (Recency, Frequency, Monetary) logic.
-The procedure classifies users into actionable groups.
-
-Use case: Powers personalized marketing, re-engagement campaigns, and lifetime value tracking.
-
-
-💡Business Value:
-
-• These SQL components enable:
-
-• Data-driven decisions at the source
-
-• Automation of recurring insights
-
-• Faster query performance and reuse
-
-• Consistent business logic across tools
-
-
-
-Phase 5: 
-Data Integrity & Automation
-
-• Smart Inventory Management: Automated stock updates after each order
-
-• Real-time Order Tracking: Comprehensive order status change logging
-
-• Review Verification: Automated verification ensuring only actual purchasers can leave reviews
-
-
-
-Phase 6: 
-Performance Optimization
-
-• Query Optimization: EXPLAIN-based analysis for bottleneck identification
-
-• Scalable Architecture: Designed to handle high-volume transaction data
-
-• Real-time Processing: Instant data updates across all systems
-
-
-
-Phase 7: 
-Security & Access Control
-
-Role-Based Permissions:
-
-• Analytics User: Reporting and dashboard access
-
-• Sales User: Customer insights and sales data
-
-• Admin User: Full system control and configuration
-
-
-
-## 📁 Files Included
-
-| File | Description |
-|------|-------------|
+| File/Folder | Description |
+|-------------|-------------|
 | `Database_and_tables_Creation.sql` | All `CREATE TABLE` statements |
-| `diagrams/ERD_I.png` | Entity-Relationship Diagram (ERD) of the schema |
-| `Database_Population.sql` | All `INSERT INTO` statements |
-| `Advanced_Analytics_Queries.sql` | Important Analytics queries |
-| `Stored_Procedures_and_Functions` |Automated business logic|
-| `Triggers_and_Data_Integrity` |Automated busines logic|
-| `Performance_Optimization` |Query Optimization|
-| `Security_Implementation` |User management and security|
+| `diagrams/ERD_I.png` | Entity-Relationship Diagram |
+| `Database_Population.sql` | Mock data insertions |
+| `Advanced_Analytics_Queries.sql` | Business intelligence SQL queries |
+| `Stored_Procedures_and_Functions.sql` | Business logic automation |
+| `Triggers_and_Data_Integrity.sql` | Triggers for maintaining data integrity |
+| `Performance_Optimization.sql` | Query tuning and indexing strategy |
+| `Security_Implementation.sql` | User roles and permissions |
 | `README.md` | Project documentation (this file) |
 
+---
+
+## 📷 ERD Diagram
+
 ![ERD Diagram](diagrams/ERD_I.png)
+
+---
+
+## Technologies Used
+
+- **MySQL**: Core database engine  
+- **SQL**: For queries, views, functions, and procedures  
+- **JSON Functions**: For nested data handling  
+- **ERD Tools**: dbdiagram.io / drawSQL  
+- **Git**: Version control and collaboration  
+
+---
+
+## 👩🏾‍💻 Author
+
+**Esther Mamtoshu**  
+Senior Data Analyst | Data Scientist | Data Storyteller | ML Enthusiast  
+🔗 [LinkedIn](http://linkedin.com/in/esther-mamtoshu-520595119)  
+🌐 [Portfolio](https://www.datascienceportfol.io/EstherMwangi)
+
+---
+
+## 📌 Credits
+
+This project is a self-driven case study inspired by real-world e-commerce systems.  
+All schema design, analytics, and logic were developed from scratch with the help of AI to demonstrate practical SQL engineering capabilities.
 
