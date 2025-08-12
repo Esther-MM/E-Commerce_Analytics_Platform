@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-A comprehensive MySQL-based E-commerce Analytics Platform demonstrating advanced database design, normalization principles, and business intelligence capabilities.
+A comprehensive MySQL-based E-Commerce Analytics Platform demonstrating advanced database design, normalization principles, and business intelligence capabilities.
 This project showcases real-world data engineering skills through complex query optimization, automated reporting, and data-driven decision support systems.
 
 ---
