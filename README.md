@@ -42,7 +42,7 @@ This project showcases real-world data engineering skills through complex query 
 
 ### Phase 2: Data Population
 
-Realistic mock data is inserted into the schema to simulate real-world e-commerce operations.
+Realistic but manufactured data is inserted into the schema to simulate real-world e-commerce operations.
 
 ---
 
