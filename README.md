@@ -134,6 +134,41 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 ---
 
+## Final Sprint Summary (Phases 8–10)
+
+### Phase 8: Advanced Analytics & Reporting
+Delivered comprehensive business intelligence capabilities, including:
+- RFM (Recency, Frequency, Monetary) analysis for customer segmentation
+- Product Recommendation Engine using Market Basket Analysis
+- Seasonal Sales Analysis to identify demand patterns
+- Customer Churn Prediction to flag at-risk customers
+- Consolidated business reports covering sales, customers, and inventory
+
+💡 **Impact:** Enhanced customer retention strategies, optimized product offerings, and supported data-driven marketing decisions.
+
+---
+
+### Phase 9: Advanced MySQL 8.0 Features
+Leveraged MySQL 8.0’s modern capabilities to handle complex analytical needs:
+- Window functions for advanced metrics such as running totals and moving averages
+- CTEs for hierarchical queries (base case: top-level categories; recursive case: subcategories)
+- JSON aggregation for multi-level performance reporting
+- Ranking functions to order and prioritize results
+
+💡 **Impact:** Produced efficient, maintainable, and scalable queries capable of analyzing large datasets.
+
+---
+
+### Phase 10: Performance Monitoring & Optimization
+Implemented measures to ensure the database remains performant at scale:
+- Query performance analysis and diagnostics procedure
+- Index creation and tuning for critical queries
+- Monitoring views for table sizes and index usage
+
+💡 **Impact:** Reduced query execution time, improved resource efficiency, and maintained long-term database stability.
+
+---
+
 ## 📁 File Structure
 
 | File/Folder | Description |
