@@ -144,7 +144,7 @@ Delivered comprehensive business intelligence capabilities, including:
 - Customer Churn Prediction to flag at-risk customers
 - Consolidated business reports covering sales, customers, and inventory
 
-💡 **Business Impact:** Enhanced customer retention strategies, optimized product offerings, and supported data-driven marketing decisions.
+💡 **Impact:** Enhanced customer retention strategies, optimized product offerings, and supported data-driven marketing decisions.
 
 ---
 
@@ -155,7 +155,7 @@ Leveraged MySQL 8.0’s modern capabilities to handle complex analytical needs:
 - JSON aggregation for multi-level performance reporting
 - Ranking functions to order and prioritize results
 
-💡 **Business Impact:** Produced efficient, maintainable, and scalable queries capable of analyzing large datasets.
+💡 **Impact:** Produced efficient, maintainable, and scalable queries capable of analyzing large datasets.
 
 ---
 
@@ -165,7 +165,7 @@ Implemented measures to ensure the database remains performant at scale:
 - Index creation and tuning for critical queries
 - Monitoring views for table sizes and index usage
 
-💡 **Business Impact:** Reduced query execution time, improved resource efficiency, and maintained long-term database stability.
+💡 **Impact:** Reduced query execution time, improved resource efficiency, and maintained long-term database stability.
 
 ---
 
