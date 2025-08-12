@@ -35,7 +35,7 @@ This project showcases real-world data engineering skills through complex query 
 - `Order_Items`: Line items with quantity and pricing  
 - `Inventory`: Real-time stock levels and warehouse data  
 - `Suppliers`: Vendor and procurement information  
-- `Categories`: Product taxonomy  
+- `Categories`: Product description  
 - `Reviews`: Customer feedback and rating system  
 
 ---
