@@ -134,7 +134,7 @@ Realistic mock data is inserted into the schema to simulate real-world e-commerc
 
 ---
 
-## Final Sprint Summary (Phases 8–10)
+### Final Sprint: (Phases 8–10)
 
 ### Phase 8: Advanced Analytics & Reporting
 Delivered comprehensive business intelligence capabilities, including:
@@ -144,7 +144,7 @@ Delivered comprehensive business intelligence capabilities, including:
 - Customer Churn Prediction to flag at-risk customers
 - Consolidated business reports covering sales, customers, and inventory
 
-💡 **Impact:** Enhanced customer retention strategies, optimized product offerings, and supported data-driven marketing decisions.
+💡 **Business Impact:** Enhanced customer retention strategies, optimized product offerings, and supported data-driven marketing decisions.
 
 ---
 
@@ -155,7 +155,7 @@ Leveraged MySQL 8.0’s modern capabilities to handle complex analytical needs:
 - JSON aggregation for multi-level performance reporting
 - Ranking functions to order and prioritize results
 
-💡 **Impact:** Produced efficient, maintainable, and scalable queries capable of analyzing large datasets.
+💡 **Business Impact:** Produced efficient, maintainable, and scalable queries capable of analyzing large datasets.
 
 ---
 
@@ -165,7 +165,7 @@ Implemented measures to ensure the database remains performant at scale:
 - Index creation and tuning for critical queries
 - Monitoring views for table sizes and index usage
 
-💡 **Impact:** Reduced query execution time, improved resource efficiency, and maintained long-term database stability.
+💡 **Business Impact:** Reduced query execution time, improved resource efficiency, and maintained long-term database stability.
 
 ---
 
