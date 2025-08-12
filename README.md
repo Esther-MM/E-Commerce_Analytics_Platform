@@ -181,6 +181,10 @@ Implemented measures to ensure the database remains performant at scale:
 | `Triggers_and_Data_Integrity.sql` | Triggers for maintaining data integrity |
 | `Performance_Optimization.sql` | Query tuning and indexing strategy |
 | `Security_Implementation.sql` | User roles and permissions |
+| `Advanced_Analytics_and_Reporting.sql` | comprehensive business reports |
+| `Leverage_Modern_MySQL_Capabilities.sql` | Window functions, hierarchical CTEs, JSON aggregation |
+| `Performance_Monitoring_and_Optimization.sql` | Query diagnostics, table and index monitoring |
+| `json_aggregation.csv` | Sample results for JSON aggregation query
 | `README.md` | Project documentation (this file) |
 
 ---
